@@ -13,3 +13,4 @@ inquirer
     var qr_png = qr.image(answers.text);
     qr_png.pipe(fs.createWriteStream('qr_code.png'));
   })
+nod
